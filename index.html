@@ -8,13 +8,26 @@
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
-        <h1>Game of Thrones Characters</h1>
+        <h1>Presidents of the United States</h1>
     </body>
-    <div>
-        <input type="text" id="search-input" placeholder="Search for Character" class="inputBar">
-      </div>
-    <section class="center" id="CharacterInfoContainer">
-        
-        
+      
+    <section class="container" id="PresidentInfoContainer">
+        <div class="top-container">
+            <label for="search-input">Search for President:</label>
+            <input type="text" id="search-input" placeholder="Search for President..." >
+            <button type="submit" id="search-button">Search</button>
+          </div>
+        <div class="output">
+            <div class="left-container">
+                <div class="name-and-id">
+                    <span id="president-name"></span>
+                    <span id="president-number"></span>
+                    <span id="president-term"></span>
+                  </div>
+                  <div id="president-container" class="president-container">
+                    <img id="president-image" src="" alt="President Name">
+                  </div>
+            </div>
+        </div>
     </section>
 </html>

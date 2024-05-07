@@ -1,0 +1,274 @@
+{
+    "presidents": [
+        {
+            "name": "George Washington",
+            "presidentNumber": "1",
+            "presidentialTerm": "1789-1797"
+
+        },
+
+        {
+            "name": "John Adams",
+            "presidentNumber": "2",
+            "presidentialTerm": "1797-1801"
+        },
+
+        {
+            "name": "Thomas Jefferson",
+            "presidentNumber": "3",
+            "presidentialTerm": "1801-1809"
+        },
+
+        {
+            "name": "James Madison",
+            "presidentNumber": "4",
+            "presidentialTerm": "1809-1817"
+        },
+
+        {
+            "name": "James Monroe",
+            "presidentNumber": "5",
+            "presidentialTerm": "1817-1825"
+        },
+
+        {
+            "name": "John Quincy Adams",
+            "presidentNumber": "6" ,
+            "presidentialTerm": "1825-1829" 
+        },
+
+        {
+            "name": "Andrew Jackson",
+            "presidentNumber": "7" ,
+            "presidentialTerm": "1829-1837" 
+        },
+
+        {
+            "name": "Martin van Buren",
+            "presidentNumber": "8" ,
+            "presidentialTerm": "1837-1841" 
+        },
+
+        {
+            "name": "Willaim Henry Harrison",
+            "presidentNumber": "9" ,
+            "presidentialTerm": "1841" 
+        },
+
+        {
+            "name": "John Tyler",
+            "presidentNumber": "10" ,
+            "presidentialTerm": "1841-1845" 
+        },
+
+        {
+            "name": "James Knox Polk",
+            "presidentNumber": "11" ,
+            "presidentialTerm": "1845-1849" 
+        },
+
+        {
+            "name": "Zachary Taylor",
+            "presidentNumber": "12" ,
+            "presidentialTerm": "1849-1850" 
+        },
+
+        {
+            "name": "Millard Fillmore",
+            "presidentNumber": "13" ,
+            "presidentialTerm": "1850-1853" 
+        },
+
+        {
+            "name": "Franklin Pierce",
+            "presidentNumber": "14" ,
+            "presidentialTerm": "1853-1857" 
+        },
+
+        {
+            "name": "James Buchanan",
+            "presidentNumber": "15" ,
+            "presidentialTerm": "1857-1861" 
+        },
+
+        {
+            "name": "Abraham Lincoln",
+            "presidentNumber": "16" ,
+            "presidentialTerm": "1861-1865" 
+        },
+
+        {
+            "name": "Andrew Johnson",
+            "presidentNumber": "17" ,
+            "presidentialTerm": "1865-1869" 
+        },
+
+        {
+            "name": "Ulysses S. Grant",
+            "presidentNumber": "18" ,
+            "presidentialTerm": "1869-1877" 
+        },
+
+        {
+            "name": "Rutherford B. Hayes",
+            "presidentNumber": "19" ,
+            "presidentialTerm": "1877-1881" 
+        },
+
+        {
+            "name": "James A. Garfield",
+            "presidentNumber": "20" ,
+            "presidentialTerm": "1881" 
+        },
+
+        {
+            "name": "Chester A. Arthur",
+            "presidentNumber": "21" ,
+            "presidentialTerm": "1881-1885" 
+        },
+
+        {
+            "name": "Grover Cleveland",
+            "presidentNumber": "22 and 24" ,
+            "presidentialTerm": "1885-1889 and 1893-1897" 
+        },
+
+        {
+            "name": "Benjamin Harrison",
+            "presidentNumber": "23" ,
+            "presidentialTerm": "1889-1893" 
+        },
+
+        {
+            "name": "William McKinley",
+            "presidentNumber": "25" ,
+            "presidentialTerm": "1897-1901" 
+        },
+
+        {
+            "name": "Theodore Roosevelt",
+            "presidentNumber": "26" ,
+            "presidentialTerm": "1901-1909" 
+        },
+
+        {
+            "name": "William Howard Taft",
+            "presidentNumber": "27" ,
+            "presidentialTerm": "1909-1913" 
+        },
+
+        {
+            "name": "Woodrow Wilson",
+            "presidentNumber": "28" ,
+            "presidentialTerm": "1913-1921" 
+        },
+
+        {
+            "name": "Warren G. Harding",
+            "presidentNumber": "29" ,
+            "presidentialTerm": "1921-1923" 
+        },
+
+        {
+            "name": "Calvin Coolidge",
+            "presidentNumber": "30" ,
+            "presidentialTerm": "1923-1929" 
+        },
+
+        {
+            "name": "Herbert Hoover",
+            "presidentNumber": "31" ,
+            "presidentialTerm": "1929-1933" 
+        },
+
+        {
+            "name": "Franklin D. Roosevelt",
+            "presidentNumber": "32" ,
+            "presidentialTerm": "1933-1945" 
+        },
+
+        {
+            "name": "Harry S. Truman",
+            "presidentNumber": "33" ,
+            "presidentialTerm": "1945-1953" 
+        },
+
+        {
+            "name": "Dwight D. Eisenhower",
+            "presidentNumber": "34" ,
+            "presidentialTerm": "1953-1961" 
+        },
+
+        {
+            "name": "John F. Kennedy",
+            "presidentNumber": "35" ,
+            "presidentialTerm": "1961-1963" 
+        },
+
+        {
+            "name": "Lyndon B. Johnson",
+            "presidentNumber": "36" ,
+            "presidentialTerm": "1963-1969" 
+        },
+
+        {
+            "name": "Richard Nixon",
+            "presidentNumber": "37" ,
+            "presidentialTerm": "1969-1974" 
+        },
+
+        {
+            "name": "Gerald Ford",
+            "presidentNumber": "38" ,
+            "presidentialTerm": "1974-1977" 
+        },
+
+        {
+            "name": "Jimmy Carter",
+            "presidentNumber": "39" ,
+            "presidentialTerm": "1977-1981" 
+        },
+
+        {
+            "name": "Ronald Reagan",
+            "presidentNumber": "40" ,
+            "presidentialTerm": "1981-1989" 
+        },
+
+        {
+            "name": "George H.W Bush",
+            "presidentNumber": "41" ,
+            "presidentialTerm": "1989-1993" 
+        },
+
+        {
+            "name": "Bill Clinton",
+            "presidentNumber": "42" ,
+            "presidentialTerm": "1993-2001" 
+        },
+
+        {
+            "name": "George W. Bush",
+            "presidentNumber": "43" ,
+            "presidentialTerm": "2001-2009" 
+        },
+
+        {
+            "name": "Barack Obama",
+            "presidentNumber": "44" ,
+            "presidentialTerm": "2009-2017" 
+        },
+
+        {
+            "name": "Donald Trump",
+            "presidentNumber": "45" ,
+            "presidentialTerm": "2017-2021" 
+        },
+
+        {
+            "name": "Joe Biden",
+            "presidentNumber": "46" ,
+            "presidentialTerm": "2021-present" 
+        }
+    ]
+}

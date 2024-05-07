@@ -2,16 +2,31 @@
 
 /** Your styles go here */
 body{
-  background-color: rgb(92, 102, 111);
+  background-color: rgb(45, 111, 211);
 }
 
 h1{
   text-align: center;
   margin: 50px;
-  color: rgb(203, 160, 67);
+  color: rgb(243, 241, 237);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 section{
   margin: 100px;
+}
+
+.container{
+  align-items: center;
+}
+#search-input{
+  margin-left: 600px;
+  height: 20px;
+  width: 200px;
+}
+
+#search-button{
+  width: 75px;
+  height: 22px;
+  margin-left: 15px;
 }
