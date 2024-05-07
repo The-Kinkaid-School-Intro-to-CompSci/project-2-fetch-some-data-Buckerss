@@ -1,21 +1,17 @@
-/** CSS Reset */
-/* You can keep or remove this, if you'd like */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-}
-
-/** You can define your own CSS variables here */
-:root {
-  /** Example: */
-  --main-background: rgb(61, 125, 202);
-}
-
 /** Project styling */
 
 /** Your styles go here */
+body{
+  background-color: rgb(92, 102, 111);
+}
+
+h1{
+  text-align: center;
+  margin: 50px;
+  color: rgb(203, 160, 67);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+section{
+  margin: 100px;
+}
