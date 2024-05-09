@@ -7,7 +7,8 @@ body{
 
 h1{
   text-align: center;
-  margin: 50px;
+  margin-top: 50px;
+  margin-bottom: 5px;
   color: rgb(243, 241, 237);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
@@ -18,9 +19,12 @@ section{
 
 .container{
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
 }
 #search-input{
-  margin-left: 600px;
+  /* margin-left: 600px; */
   height: 20px;
   width: 200px;
 }
@@ -29,4 +33,41 @@ section{
   width: 75px;
   height: 22px;
   margin-left: 15px;
+}
+
+.top-container{
+  width: 500px;
+  height: 60px;
+  background-color: rgb(220, 213, 213);
+  border-radius: 22px;
+  margin: 20px 0;
+  padding: 20px;
+
+}
+
+label{
+  font-size: 20px;
+  margin-right: 10px;
+}
+.bottom-container{
+  width: 1300px;
+  min-height: 900px;
+  background-color: rgb(220, 213, 213);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  /* margin: 20px; */
+}
+
+.info-container{
+  align-items: center;
+  width: 555px ;
+  height: 175px;
+  background-color: rgb(195, 7, 7);
+  border-radius: 22px;
+  margin: 45px;
+  margin-top: 30px;
+  
 }
