@@ -13,24 +13,23 @@
       
     <section class="container" id="PresidentInfoContainer">
         <div class="top-container">
+            <label class="options-label" for="players">Filter Information:</label>
+                <select name="players" id="presidentFilter">
+                    <option value="all">All Information</option>
+                    <option value="Name">President Name</option> 
+                    <option value="Number">Presidential Number</option>
+                    <option value="Term">Presidential Term</option>
+                    <option value="Era">Era</option>
+                </select> 
+                <button type="submit" id="filtersearch-button">Search</button> <br>
             <label for="search-input">Search for President:</label>
             <input type="text" id="search-input" placeholder="Search for President..." >
-            <button type="submit" id="search-button">Search</button>
+            <button type="submit" id="inputsearch-button">Search</button>
           </div>
-        <div class="bottom-container">
-                <div class="name-and-id">
-                    <span id="president-name"></span>
-                    <span id="president-number"></span>
-                    <span id="president-term"></span>
-                    <span id="Era"></span>
-                  </div>
-                  <div class ="info-container"id="left-container">
+        <section class="bottom-container">
+                  <div class="info-container" id="card-containter">
                     
                   </div>
-                  <div class="info-container" id="right-container">
-                    
-                  </div>
-            </div>
-        </div>
+        </section>
     </section>
 </html>

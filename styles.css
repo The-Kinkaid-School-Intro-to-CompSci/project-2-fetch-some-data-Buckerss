@@ -14,7 +14,7 @@ h1{
 }
 
 section{
-  margin: 100px;
+  margin: 10px;
 }
 
 .container{
@@ -61,7 +61,8 @@ label{
   /* margin: 20px; */
 }
 
-.info-container{
+
+/* .info-container{
   align-items: center;
   width: 555px ;
   height: 175px;
@@ -70,4 +71,22 @@ label{
   margin: 45px;
   margin-top: 30px;
   
+} */
+
+div{
+  background-color: rgb(195, 7, 7);
+  width: 555px;
+  height: 175px;
+  border-radius: 22px;
+  margin: 45px;
+  
+}
+
+p{
+  text-align: center;
+}
+
+.card-title{
+  font-weight: bold;
+  padding-top: 20px;
 }
