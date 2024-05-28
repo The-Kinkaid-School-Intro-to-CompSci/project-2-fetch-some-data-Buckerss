@@ -85,83 +85,83 @@ function filterName(president){
 
 }
 
-// async function SearchBTN(event){
-//     event.preventDefault();
-//     console.log("button clicked");
+async function SearchBTN(event){
+    event.preventDefault();
+    console.log("button clicked");
 
-//         let userData = await fetchJSONData();
-//         console.log("User data: ", userData);
-//         currentPres = userData.results;
-//         displayPresInformation(currentPres);
-// }
+        let userData = await fetchJSONData();
+        console.log("User data: ", userData);
+        currentPres = userData.results;
+        displayPresInformation(currentPres);
+}
 
-// function setPresidentCards(president){
-//     console.log(president);
+function setPresidentCards(president){
+    console.log(president);
 
-//     for(const president of presidents){
-//         createCard(president);
-//     }
-// }
+    for(const president of presidents){
+        createCard(president);
+    }
+}
 
-// function displayCards(presidents){
-//     let cardsContainer = document.querySelector('.info-container');
-//     clearContainer(cardsContainer);
+function displayCards(presidents){
+    let cardsContainer = document.querySelector('.info-container');
+    clearContainer(cardsContainer);
 
-//     let firstPres = presidents[0];
-//     let newPresCard = createCard(firstPres);
-//     cardsContainer.appendChild(newPresCard);
-// }
+    let firstPres = presidents[0];
+    let newPresCard = createCard(firstPres);
+    cardsContainer.appendChild(newPresCard);
+}
 
-// function createPresNameCards(presidents){
-//     console.log("createPresNameCards function called");
-//     let PresTitle = document.createElement('p');
-//     PresTitle.textContent = `Name: ${president.name}`;
-//     PresTitle.classList.add('card-title');
-//     PresDetails.appendChild(PresTitle);
-// }
+function createPresNameCards(presidents){
+    console.log("createPresNameCards function called");
+    let PresTitle = document.createElement('p');
+    PresTitle.textContent = `Name: ${president.name}`;
+    PresTitle.classList.add('card-title');
+    PresDetails.appendChild(PresTitle);
+}
 
 
-// function filterbyPresidentName(president){
-//     console.log("filterbyPresidentName function called");
-//     // let PresFilter = document.querySelector('.bottom-container');
-//     clearContainer();
-//     // createPresNameCards(presidents);
-//     let PresTitle = document.createElement('p');
-//     PresTitle.textContent = `Name: ${president.name}`;
-//     PresDetails.appendChild(PresTitle);
-//     for (i = 0; i < 45; i++){
-//         console.log(PresData)
-//         displayPresInformation(RECpresidentinfo[i]);
-//     }
-//     return data;
+function filterbyPresidentName(president){
+    console.log("filterbyPresidentName function called");
+    // let PresFilter = document.querySelector('.bottom-container');
+    clearContainer();
+    // createPresNameCards(presidents);
+    let PresTitle = document.createElement('p');
+    PresTitle.textContent = `Name: ${president.name}`;
+    PresDetails.appendChild(PresTitle);
+    for (i = 0; i < 45; i++){
+        console.log(PresData)
+        displayPresInformation(RECpresidentinfo[i]);
+    }
+    return data;
     
-// }
+}
 
     
 
-// function filter(filterValue, presidents){
-//     console.log("Filter presidents by: ", filterValue);
+function filter(filterValue, presidents){
+    console.log("Filter presidents by: ", filterValue);
 
-//     if(filterValue === 'All Information'){
-//         setPresidentCards(presidents);
-//     }
-//     else if (filterValue == 'President Name'){
-//         let nameONLY = filterbyPresidentName(presidents);
-//         console.log("filter value = president name")
-//         console.log("US president names: ", nameONLY )
-//         displayCards(presidents);
-//     }
-//     if (filterValue === "Presidential Number"){
-//         filterbyPresidentNumber(presidents);
-//     }
-//     if(filterValue === "Presidential Term"){
-//         filterbyPresidentTerm(presidents);
-//     }
-//     if(filterValue === "Era"){
-//         filterbyPresEra(presidents);
-//     }
+    if(filterValue === 'All Information'){
+        setPresidentCards(presidents);
+    }
+    else if (filterValue == 'President Name'){
+        let nameONLY = filterbyPresidentName(presidents);
+        console.log("filter value = president name")
+        console.log("US president names: ", nameONLY )
+        displayCards(presidents);
+    }
+    if (filterValue === "Presidential Number"){
+        filterbyPresidentNumber(presidents);
+    }
+    if(filterValue === "Presidential Term"){
+        filterbyPresidentTerm(presidents);
+    }
+    if(filterValue === "Era"){
+        filterbyPresEra(presidents);
+    }
 
-// }
+}
 
 async function fetchJSONData(){
 
