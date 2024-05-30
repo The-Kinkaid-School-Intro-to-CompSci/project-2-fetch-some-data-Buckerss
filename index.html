@@ -3,11 +3,33 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>The name of your website</title> 
+        <title>US Presidents</title> 
         <link rel="stylesheet" href="styles.css">
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
-        Your HTML goes here
+        <h1>Presidents of the United States</h1>
     </body>
+      
+    <section class="container" id="PresidentInfoContainer">
+        <div class="top-container">
+            <label class="options-label" for="players">Filter Information:</label>
+                <select name="players" id="presidentFilter">
+                    <option value="all">All Information</option>
+                    <option value="Name">President Name</option> 
+                    <option value="Number">Presidential Number</option>
+                    <option value="Term">Presidential Term</option>
+                    <option value="Era">Era</option>
+                </select> 
+                <button type="submit" id="filtersearch-button">Search</button> <br>
+            <label for="search-input">Search for President:</label>
+            <input type="text" id="search-input" placeholder="Search for President..." >
+            <button type="submit" id="inputsearch-button">Search</button>
+          </div>
+        <section class="bottom-container">
+                  <div class="info-container" id="card-containter">
+                    
+                  </div>
+        </section>
+    </section>
 </html>

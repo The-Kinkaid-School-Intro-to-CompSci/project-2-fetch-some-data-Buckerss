@@ -1,21 +1,92 @@
-/** CSS Reset */
-/* You can keep or remove this, if you'd like */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-}
-
-/** You can define your own CSS variables here */
-:root {
-  /** Example: */
-  --main-background: rgb(61, 125, 202);
-}
-
 /** Project styling */
 
 /** Your styles go here */
+body{
+  background-color: rgb(45, 111, 211);
+}
+
+h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  color: rgb(243, 241, 237);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+section{
+  margin: 10px;
+}
+
+.container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+#search-input{
+  /* margin-left: 600px; */
+  height: 20px;
+  width: 200px;
+}
+
+#search-button{
+  width: 75px;
+  height: 22px;
+  margin-left: 15px;
+}
+
+.top-container{
+  width: 500px;
+  height: 60px;
+  background-color: rgb(220, 213, 213);
+  border-radius: 22px;
+  margin: 20px 0;
+  padding: 20px;
+
+}
+
+label{
+  font-size: 20px;
+  margin-right: 10px;
+}
+.bottom-container{
+  width: 1300px;
+  min-height: 900px;
+  background-color: rgb(220, 213, 213);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  /* margin: 20px; */
+}
+
+
+/* .info-container{
+  align-items: center;
+  width: 555px ;
+  height: 175px;
+  background-color: rgb(195, 7, 7);
+  border-radius: 22px;
+  margin: 45px;
+  margin-top: 30px;
+  
+} */
+
+div{
+  background-color: rgb(195, 7, 7);
+  width: 555px;
+  height: 175px;
+  border-radius: 22px;
+  margin: 45px;
+  
+}
+
+p{
+  text-align: center;
+}
+
+.card-title{
+  font-weight: bold;
+  padding-top: 20px;
+}
